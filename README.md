@@ -1,20 +1,50 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# React + TypeScript + Vite Project
 
-# Run and deploy your AI Studio app
+This project is a React application set up with TypeScript and Vite.
 
-This contains everything you need to run your app locally.
+## Getting Started
 
-View your app in AI Studio: https://ai.studio/apps/drive/17YCJGvlPE5WDHp9OMUn471wLkFmkA57m
+### Prerequisites
 
-## Run Locally
+- Node.js (v18 or higher recommended)
+- npm (comes with Node.js)
 
-**Prerequisites:**  Node.js
+### Installation
 
+1. Clone the repository
+2. Install dependencies:
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+```bash
+npm install
+```
+
+### Clean Install (if issues arise)
+
+If you encounter issues with dependencies, try a clean install:
+
+```bash
+rm -rf node_modules package-lock.json
+npm install
+```
+
+## Available Scripts
+
+- `npm run dev`: Starts the development server.
+- `npm run build`: Builds the app for production.
+- `npm run preview`: Locally preview the production build.
+- `npm run lint`: Runs ESLint to check for code quality issues.
+- `npm run format`: Formats code using Prettier.
+
+## Code Quality
+
+This project uses:
+- **ESLint**: For identifying and reporting on patterns found in ECMAScript/JavaScript code.
+- **Prettier**: For consistent code formatting.
+
+## Deployment
+
+This project is configured to deploy to **GitHub Pages** using GitHub Actions.
+
+1. Go to your repository **Settings** > **Pages**.
+2. Under "Build and deployment", set **Source** to **GitHub Actions**.
+3. Push changes to the `main` branch to trigger the deployment automatically.
