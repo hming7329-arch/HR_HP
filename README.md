@@ -20,7 +20,7 @@ npm install
 
 ### Clean Install (if issues arise)
 
-If you encounter issues with dependencies, try a clean install:
+If you encounter issues with dependencies, try a clean install: 
 
 ```bash
 rm -rf node_modules package-lock.json
